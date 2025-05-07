@@ -5,7 +5,7 @@
   
       <!-- Example Project Block -->
       <section class="project-block">
-        <img src="../assets/chart.png" alt="Chart" class="project-image" />
+        <img src="../assets/Chart.png" alt="Chart" class="project-image" />
   
         <div class="project-info">
           <h3>Graphing Data</h3>
@@ -44,7 +44,7 @@
 
       </section>
 
-      
+
       </section>
   </template>
   
