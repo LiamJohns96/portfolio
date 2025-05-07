@@ -87,8 +87,7 @@ h2 {
         align-items: center;
         margin-bottom: 3rem;
         gap: 1.5rem;
-        border-bottom: 1px solid black;
-        padding-bottom: 4rem;
+        
     }
     .project-image {
         max-width: 100%;
