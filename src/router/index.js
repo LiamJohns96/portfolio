@@ -6,7 +6,8 @@ import Contact from '../pages/Contact.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home, meta: { title: 'Home – Liam Johns' }},
   { path: '/resume', name: 'Resume', component: Resume, meta: { title: 'Resume – Liam Johns' }},
-  { path: '/contact', name: 'Contact', component: Contact, meta: { title: 'Contact – Liam Johns' }}
+  { path: '/contact', name: 'Contact', component: Contact, meta: { title: 'Contact – Liam Johns' }},
+  { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
 const router = createRouter({
