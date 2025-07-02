@@ -2,7 +2,7 @@
     <section class="intro">
       <h1>Hi! Thank you for viewing my portfolio.</h1>
       <p>Please view my work in software development, visual design, and a variety projects that demonstrate my skillsets.</p>
-      <p><i> ~ Liam Johns</i></p>
+      <p><i> ~ L. Johns</i></p>
     </section>
   </template>
   

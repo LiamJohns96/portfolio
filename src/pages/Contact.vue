@@ -6,7 +6,7 @@
       <div class="contact-list">
         <div class="contact-item">
           <span class="label">Email:</span>
-          <a href="mailto:LiamCJohns@live.com.au">LiamCJohns@live.com.au</a>
+          <a href="mailto:L.Johns.Work@gmail.com">L.Johns.Work@gmail.com</a>
         </div>
   
         <div class="contact-item">
