@@ -1,13 +1,13 @@
 <template>
    <a
-        href="/Lia_Johns_Resume.pdf"
+        href="/Liam_Johns_Resume_2025.pdf"
         download
         class="download-btn"
         >
         ⬇ Download PDF Resume
     </a>
     <section class="resume">
-      <h1>Lia Johns</h1>
+      <h1>L. Johns</h1>
       <p class="contact">Melbourne · L.Johns.Work@gmail.com · 0450 901 484</p>
   
      

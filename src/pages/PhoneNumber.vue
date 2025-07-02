@@ -1,7 +1,7 @@
 <template>
   <section class="phone-page">
     <div class="phone-box">
-      <h2>Lia's Phone Number:</h2>
+      <h2>Contact Phone Number:</h2>
       <div class="phone-highlight">
         <a href="tel:0450901484">0450 901 484</a>
       </div>
