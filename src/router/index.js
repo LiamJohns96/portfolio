@@ -3,12 +3,14 @@ import Home from '../pages/Home.vue'
 import Resume from '../pages/Resume.vue'
 import Contact from '../pages/Contact.vue'
 import PhoneNumber from '@/pages/PhoneNumber.vue'
+import CallsData from '@/pages/CallsData.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home, meta: { title: 'Home – L. Johns' }},
   { path: '/resume', name: 'Resume', component: Resume, meta: { title: 'Resume – L. Johns' }},
   { path: '/contact', name: 'Contact', component: Contact, meta: { title: 'Contact – L. Johns' }},
   { path: '/phone', name: 'Phone', component: PhoneNumber, meta: { title: 'Phone – L. Johns' }},
+  { path: '/calls-data', name: 'Data', component: CallsData, meta: { title: 'Calls Data – L. Johns' }},
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
