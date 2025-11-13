@@ -109,6 +109,22 @@ export default {
           .style("text-align", "center")
           .style("margin-top", "6px")
           .html(`<strong>Total calls:</strong> ${total}`);
+
+        
+        // Optional: legend below the chart
+        const legend = barDiv.append("div")
+            .style("text-align", "center")
+            .style("font-size", "13px")
+            .style("margin-top", "6px");
+
+        legend.html(
+        Object.entries(groups)
+            .map(([label, count]) => {
+            const pct = ((count / total) * 100).toFixed(1);
+            return `<span style="color:${color(label)};">&#9679;</span> ${label}: ${count} calls (${pct}%)`;
+            })
+            .join("<br>")
+        );
       }
 
       // Draw months
