@@ -53,7 +53,7 @@ export default {
         .style("opacity", 0);
 
       const x = d3.scaleBand()
-        .domain(cleaned.map(d => d3.timeFormat("%-m/%-d/%Y")(d.date)).reverse())
+        .domain(cleaned.map(d => d3.timeFormat("%-m/%-d/%Y")(d.date))
         .range([0, width])
         .padding(0.1);
 
