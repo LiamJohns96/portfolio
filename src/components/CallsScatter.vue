@@ -235,7 +235,7 @@ export default {
         );
       }
 
-      ["November","October","September","August","July"].forEach(m =>
+      ["May", "April", "March", "February", "January", "December", "November", "October", "September", "August", "July"].forEach(m =>
         drawMonthlyBar(m,"pies")
       );
     });
