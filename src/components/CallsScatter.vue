@@ -2,7 +2,7 @@
   <div>
     <h2>L Johns - Call Data as of 12th Nov</h2>
     <!-- Scatter plot -->
-    <svg id="scatter" width="900" height="800"></svg>
+    <svg id="scatter" width="1500" height="800"></svg>
 
     <h3>Average Call Times per Month</h3>
     <div id="monthly-summary"></div>
