@@ -1,11 +1,11 @@
 <template>
   <section class="designs-page">
-
     <!-- 🎥 3D Design Section -->
     <section class="design-section">
       <h2>3D Design Showcase</h2>
       <p>
-        This section includes stages from my 3D modeling workflow, including wireframe, occlusion, and final renders. Tools used: Blender, Maya.
+        This section includes stages from my 3D modeling workflow, including
+        wireframe, occlusion, and final renders. Tools used: Blender, Maya.
       </p>
       <ul>
         <li>Wireframe modeling to establish form</li>
@@ -18,18 +18,26 @@
         <img src="../assets/3D_5.jpg" alt="Blocking View" />
         <img src="../assets/3D_3.jpg" alt="Wireframe View" />
         <img src="../assets/3D_4.jpg" alt="Occlusion View" />
-      <p class="caption">Hover/ tap to enlarge photos</p>
-
+        <p class="caption">Hover/ tap to enlarge photos</p>
       </div>
 
-      <div>        
+      <div>
         <p>These images demonstrate a key stage of the 3D modelling process:</p>
         <ol>
-          <li>Blocking Stage: The initial placement of basic models to help visualise the layout</li>
-          <li>Modelling Stage: Creating the detailed models and buildig out the scene</li>
-          <li>Texture/ Lighting Stages: Implementing the textures for all elements, and careful placement of lighting for the scene</li>
+          <li>
+            Blocking Stage: The initial placement of basic models to help
+            visualise the layout
+          </li>
+          <li>
+            Modelling Stage: Creating the detailed models and buildig out the
+            scene
+          </li>
+          <li>
+            Texture/ Lighting Stages: Implementing the textures for all
+            elements, and careful placement of lighting for the scene
+          </li>
         </ol>
-        <br>
+        <br />
       </div>
 
       <div class="image-full">
@@ -42,12 +50,17 @@
     <section class="design-section">
       <h2>Film & Video Projects</h2>
       <p>
-        A selection of film projects where I worked on editing, visual effects & design. Tools used: Adobe Premiere, After Effects, Photoshop, & Illustrator.
+        A selection of film projects where I worked on editing, visual effects &
+        design. Tools used: Adobe Premiere, After Effects, Photoshop, &
+        Illustrator.
       </p>
       <ul>
         <li>Visual effects and video editing</li>
         <li>Color grading and motion graphics</li>
-        <li>Have also worked in a variety of filmmaking roles: Script writing, directing, sound, and cinematography.</li>
+        <li>
+          Have also worked in a variety of filmmaking roles: Script writing,
+          directing, sound, and cinematography.
+        </li>
       </ul>
 
       <div class="image-row">
@@ -58,16 +71,17 @@
     </section>
 
     <!-- 🌀 More Sections can follow the same pattern -->
-
   </section>
 </template>
-
 
 <style scoped>
 h3 {
   font-weight: bold;
 }
-
+h1,
+h2 {
+  font-weight: normal;
+}
 
 .designs-page {
   /* padding: 2rem; */
@@ -87,7 +101,6 @@ h3 {
 
 p {
   font-size: 1.1rem;
-
 }
 
 .design-section p {
@@ -102,7 +115,6 @@ p {
   font-size: 0.9rem;
   color: rgb(59, 59, 59);
 }
-
 
 .design-section ul {
   margin-left: 1.5rem;
@@ -140,7 +152,7 @@ p {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-top: 3px;
 }
 

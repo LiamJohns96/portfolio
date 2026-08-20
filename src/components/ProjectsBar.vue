@@ -1,20 +1,16 @@
 <script setup>
-import { computed, ref } from 'vue'
-import { useSelectionStore } from '../stores/selection'
-import ProjectFoost from './ProjectFoost.vue'
-import ProjectDesigns from './ProjectDesigns.vue'
-import ProjectBuilds from './ProjectBuilds.vue'
+import { computed, ref } from "vue";
+import { useSelectionStore } from "../stores/selection";
+import ProjectFoost from "./ProjectFoost.vue";
+import ProjectDesigns from "./ProjectDesigns.vue";
+import ProjectBuilds from "./ProjectBuilds.vue";
 
-const store = useSelectionStore()
-store.selectedPage = 'foost'
-
-
+const store = useSelectionStore();
+store.selectedPage = "foost";
 </script>
-
 
 <template>
   <div>
-  
     <section class="image-links">
       <div class="image-wrapper" @click="store.selectedPage = 'foost'">
         <img src="../assets/foost_0.png" alt="ProjectFoost" class="image" />
@@ -23,8 +19,6 @@ store.selectedPage = 'foost'
         <span v-if="store.selectedPage === 'foost'" class="symbol">•</span>
       </div>
 
-     
-
       <div class="image-wrapper" @click="store.selectedPage = 'designs'">
         <img src="../assets/3D_Bike2.png" alt="Designs" class="image" />
         <div class="overlay"></div>
@@ -32,24 +26,19 @@ store.selectedPage = 'foost'
         <span v-if="store.selectedPage === 'designs'" class="symbol">•</span>
       </div>
 
-       
-
       <div class="image-wrapper" @click="store.selectedPage = 'builds'">
         <img src="../assets/builds_1.png" alt="Builds" class="image" />
         <div class="overlay"></div>
         <div class="overlay-text">Code, Builds, & Projects</div>
         <span v-if="store.selectedPage === 'builds'" class="symbol">•</span>
       </div>
-
-
-      
     </section>
 
     <!-- Dynamic component displayed separately, not affecting image layout -->
     <section class="content-area">
       <ProjectFoost v-if="store.selectedPage === 'foost'" />
       <ProjectDesigns v-if="store.selectedPage === 'designs'" />
-      <ProjectBuilds v-if="store.selectedPage === 'builds'" /> 
+      <ProjectBuilds v-if="store.selectedPage === 'builds'" />
     </section>
   </div>
 </template>
@@ -58,7 +47,7 @@ store.selectedPage = 'foost'
 .image {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 2rem;
   /* padding: 7%; */
 }
@@ -97,9 +86,9 @@ store.selectedPage = 'foost'
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 2rem;
-  background-color: rgba(229, 202, 255, 0.15); 
+  background-color: rgba(229, 202, 255, 0.15);
   z-index: 1;
 }
 
@@ -135,14 +124,12 @@ store.selectedPage = 'foost'
     font-size: 0.75rem; /* Smaller font for mobile */
     font-weight: bold;
     text-align: center;
-
   }
   .image-links {
     margin-top: 30%;
   }
-  .image-wrapper{
+  .image-wrapper {
     min-height: 0px;
-
   }
 }
 
@@ -168,6 +155,4 @@ img {
   max-width: 960px;
   margin-inline: auto;
 }
-
-
 </style>
