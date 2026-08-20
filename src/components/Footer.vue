@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-      <p>This website was developed by Liam Johns. 
+      <p>This website was developed by Lia Johns. 
         It was built using Vue.js with a modular component structure, 
         scoped CSS, custom routing, and responsive design. It uses a Vue store (Pinia) to dynamically 
         control page content.
