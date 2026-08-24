@@ -35,10 +35,7 @@
         mobile 4G or 5G network).
         <ul>
           <li>
-            For on-prem clients: Pairing tells the Tyro Terminal Adapter which
-            Tyro terminal the workstation should communicate with. It stores the
-            terminal's pairing details rather than creating a direct local
-            connection between the PC and terminal.
+            For on-prem clients: Pairing links the Tyro Terminal Adapter on the workstation to the specific Tyro terminal. Zedmed then communicates with that terminal through the adapter.
           </li>
           <li>
             For cloud clients: Pairing is not required (other than to get the
